@@ -1,5 +1,5 @@
-# Write a script that checks if the entered path of directory exists in the file system, pass current
-working directory to command line.
+#Write a script that checks if the entered path of directory exists in the file system, pass current
+#working directory to command line.
 
 #! /bin/bash
 
