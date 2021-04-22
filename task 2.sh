@@ -8,8 +8,8 @@ read directory
 
 if [[ -d "$directory" ]]
 then 
-   pwd
+   printf "$directory exists on your filesystem \n your current path is $PWD"
 else 
-   echo "$directory doesnt exist on your filesystem"
+  echo "$directory doesnt exist on your filesystem"
     
 fi

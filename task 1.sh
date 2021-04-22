@@ -7,5 +7,8 @@ echo -e "Please enter your number: "
 read number
 
 if [[ $number -eq 20 ]]
-then echo  "Number is $number"
+then 
+    echo  "$number is equal 20"
+else 
+    echo "$number is not equal 20"
 fi
