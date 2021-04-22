@@ -1,0 +1,13 @@
+Write a script that checks if the entered path of directory exists in the file system, pass current
+working directory to command line.
+
+echo -e "Please enter any path: "
+read directory
+
+if [[ -d "$directory" ]]
+then 
+   pwd
+else 
+   echo "$directory doesnt exist on your filesystem"
+    
+fi
