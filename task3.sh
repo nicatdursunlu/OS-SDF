@@ -1,6 +1,6 @@
-# Write a simple rc script and run the scripts of the previous tasks to show how it works. Create git
-repository and push all created files to github. Send to the classroom only the link for github where are
-the answers to the questions
+#Write a simple rc script and run the scripts of the previous tasks to show how it works. Create git
+#repository and push all created files to github. Send to the classroom only the link for github where are
+#the answers to the questions
 
 
 #!/bin/sh
