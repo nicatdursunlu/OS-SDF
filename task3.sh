@@ -7,20 +7,20 @@
 
 . /etc/init.d
 
-[ -f /usr/local/sbin/task3.sh ] || exit 0
+[ -f /usr/local/sbin/task3 ] || exit 0
 
 case "$1" in
 
 
         start)
                 echo "Script started"
-                /usr/local/sbin/task3.sh &
+                /usr/local/sbin/task3 &
                 echo "--------------------"
                 touch /var/lock/subsys/taskrc
                 ;;
         stop)
                 echo -n "Stopping"
-                killall -q -9 task3.sh &
+                killall -q -9 task3 &
                 rm -f /var/lock/subsys/taskrc
                 ;;
        
